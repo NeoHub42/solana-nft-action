@@ -1,0 +1,15 @@
+{
+     "name": "solana-nft-action",
+     "version": "1.0.0",
+     "description": "Solana NFT buying Action blink",
+     "main": "index.js",
+     "scripts": {
+       "start": "node index.js"
+     },
+     "dependencies": {
+       "@solana/web3.js": "^1.73.0",
+       "@solana/spl-token": "^0.3.6",
+       "@solana/actions": "^1.0.0",
+       "express": "^4.17.1"
+     }
+   }
