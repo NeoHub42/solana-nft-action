@@ -18,11 +18,11 @@ const express = require('express');
      const { account } = req.body;
      
      // Replace with your NFT details
-     const nftMint = new PublicKey('YOUR_NFT_MINT_ADDRESS');
+     const nftMint = new PublicKey('4JBzwTUtEWmMRv8KfirBaUtx1kDpmDyfR4XF22atwYWm');
      const price = 1000000000; // 1 SOL in lamports
      
      // Replace with your wallet that receives payment
-     const sellerWallet = new PublicKey('YOUR_SELLER_WALLET_ADDRESS');
+     const sellerWallet = new PublicKey('5hCnhQxsrxdR87ZVr2HYW2iUhxLqWrCKiZhB58pmHtVN');
      
      const buyerWallet = new PublicKey(account);
      
